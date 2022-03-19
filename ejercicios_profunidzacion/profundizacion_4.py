@@ -45,3 +45,22 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+#Ejercicios Prfundizacion 4
+#Autor: Bruno San Giorgio
+
+print('Ingrese el nombre completo de su padre') #Pido por consola el nombre del padre
+nombre_padre1= str(input())
+
+print('Ingrese el nombre completo de su otro padre') #Pido por consola el nombre del otro padre
+nombre_padre2= str(input())
+
+print('Ingrese el nombre del hijo/a') #Pido por consola el nombre del hijo
+nombre_hijo= str(input())
+
+apellido_padre1=nombre_padre1.split(' ')
+apellido_padre2=nombre_padre2.split(' ')
+
+#NO ME SALIO LA ULTIMA PARTE
+#NO ENTIENDO COMO ELEGIR LAS PALABRAS QUE NECESITO DESPUES DEL SPLIT PORQUE EL APELLIDO AL SER COMPUESTO ME LO SEPARA EN TRES
+#DE AHI DEBERIA SUMAR EL NOMBRE + APELLIDO 1 + APELLIDO 2 Y NO SE BIEN COMO HACERLO

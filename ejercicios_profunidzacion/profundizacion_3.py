@@ -36,5 +36,25 @@ https://www.geeksforgeeks.org/isupper-islower-lower-upper-python-applications/
 Cualquier duda con estos métodos pueden consultarla por el campus
 '''
 
+import string
+
+
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+
+#Ejercicios Prfundizacion 3
+#Autor: Bruno San Giorgio
+
+print('Ingrese su nombre completo') #Pido por consola el nombre 
+nombre= str(input())
+
+nombre_minus= nombre.lower()        #Variable todo minuscula
+nombre_mayus= nombre.upper()        #Variable todo mayuscula
+nombre_primera_mayuscula= nombre.capitalize()        #Variable primer letra mayuscula
+
+print(nombre_minus)         #Imprimo por consola todo minuscula
+
+print(nombre_mayus)         #Imprimo por consola todo mayuscula
+
+print(nombre_primera_mayuscula)     #Imprimo por consola la primera en mayuscula

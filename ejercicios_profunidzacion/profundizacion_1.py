@@ -29,5 +29,32 @@ E) Exponente/Potencia
   ej: La suma entre 4.2 y 6.5 es 10.7
 '''
 
+from __future__ import division
+
+
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+
+#Ejercicios Prfundizacion 1
+#Autor: Bruno San Giorgio
+
+print('Ingresa un numero')
+Numero_1= float(input())    #Solicito primer numero por consola
+print('Ingresa otro numero')
+Numero_2= float(input())    #Solicito otro numero por consola
+
+Suma= Numero_1 + Numero_2   #Calculo la suma
+print('La suma entre',Numero_1,'y',Numero_2,'es',Suma)  #Imprimo el calculo por consola
+
+Resta= Numero_1 - Numero_2  #Calculo la resta
+print('La resta entre',Numero_1,'y',Numero_2,'es',Resta)  #Imprimo el calculo por consola
+
+Multiplicacion= Numero_1 * Numero_2   #Calculo la multiplicacion
+print('La multiplicacion entre',Numero_1,'y',Numero_2,'es',Multiplicacion)  #Imprimo el calculo por consola
+
+Division= Numero_1 / Numero_2   #Calculo la division
+print('La division entre',Numero_1,'y',Numero_2,'es',Division)    #Imprimo el calculo por consola
+
+Potencia= Numero_1 ** Numero_2    #Calculo la potencia
+print('La potencia entre',Numero_1,'y',Numero_2,'es',Potencia)    #Imprimo el calculo por consola
