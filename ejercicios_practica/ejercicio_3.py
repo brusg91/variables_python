@@ -24,3 +24,17 @@ apellido = str(input())
 
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
+
+
+#Ejercicios Practica 3
+#Autor: Bruno San Giorgio
+
+nombre_completo= nombre +' '+ apellido  #Almacenamos el nombre completo en una variable
+
+print('Su nombre es',nombre_completo)   #Imprimo el nombre completo
+
+cantidad_letras= len(nombre_completo)   #Cuento la cantidad de letras nombre completo
+
+cantidad_letras_real= cantidad_letras - 1   #Cuento la cantidad de letras reales sin el espacio
+
+print('Su nombre completo tiene',cantidad_letras_real,'letras')    #Imprimo en consola la cantidad de letras del nombre completo
